@@ -49,39 +49,39 @@ body {
   outline: none;
 }
 
-.form .form-control {
+.form .form__control {
   margin-bottom: 10px;
 }
 
-.form .form-control label {
+.form .form__control label {
   display: block;
   margin-bottom: 10px;
 }
 
-.form .form-control input {
+.form .form__control input {
   display: block;
   width: 100%;
   padding: 10px 20px;
 }
 
-.form .form-control input:focus {
+.form .form__control input:focus {
   outline: none;
 }
 
-.form .form-control small {
+.form .form__control small {
   visibility: hidden;
 }
 
 /* ERROR HANDELING */
-.form .form-control.error input {
+.form .form__control.error input {
   border: 2px solid var(--error-color);
 }
 
-.form .form-control.error small {
+.form .form__control.error small {
   visibility: visible;
   color: var(--error-color);
 }
 
-.form .form-control.success input {
+.form .form__control.success input {
   border: 2px solid var(--success-color);
 }
