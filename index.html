@@ -3,11 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Form Validator</title>
 </head>
 <body>
-  
+  <div class="container">
+    <form action="" id="form" class="form">
+      <h2>Register With Us</h2>
+
+      <!-- Username form control -->
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter username">
+        <small>Error message</small>
+      </div>
+
+
+      <!-- Email form control -->
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter email">
+        <small>Error message</small>
+      </div>
+
+      <!-- Password form control -->
+      <div class="form-control">
+        <label for="username">Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+        <small>Error message</small>
+      </div>
+
+      <!-- Confirmed password form control -->
+      <div class="form-control">
+        <label for="confirmed-password">Confirm Password</label>
+        <input type="password" id="confirmed-password" placeholder="Enter password again">
+        <small>Error message</small>
+      </div>
+
+      <button>Submit</button>
+    </div> <!-- end of container -->
+  </form>
 
 
 
